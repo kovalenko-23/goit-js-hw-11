@@ -6,6 +6,12 @@ const outputDays = document.querySelector('[data-value="days"]');
 const outputHours = document.querySelector('[data-value="hours"]');
 const outputMins = document.querySelector('[data-value="mins"]');
 const outputSecs = document.querySelector('[data-value="secs"]');
+// const outputDays = document.querySelector('[data-label="days"]');
+// const outputHours = document.querySelector('[data-label="hours"]');
+// const outputMins = document.querySelector('[data-label="mins"]');
+// const outputSecs = document.querySelector('[data-label="secs"]');
+
+
 
 
 class timerCountdown {
@@ -55,7 +61,6 @@ function updateOutput({ days, hours, mins, secs }) {
     outputMins.textContent = `${mins}`;
     outputSecs.textContent = `${secs}`;
 }
-
 
 
        

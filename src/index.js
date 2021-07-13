@@ -115,7 +115,4 @@ function updateOutput({ days, hours, minutes, seconds }) {
 
 
 
-
-
-
        

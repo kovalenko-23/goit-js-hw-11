@@ -1,0 +1,2 @@
+.wrapper{flex-direction:column;margin-left:50px;margin-top:50px}.timer,.wrapper{display:inline-flex}.timer{margin-top:20px;background-color:#ff0}.field{display:inline-flex;flex-direction:column;text-align:center}.field:not(:last-child){margin-right:10px}.label,.value{font-size:25px;font-weight:700}.label{font-style:italic}button{font-weight:700;padding:3px;background-color:#9acd32}button:hover{font-weight:700;background-color:tomato}
+/*# sourceMappingURL=/goit-js-hw-11-timer/src.8bc6b481.css.map */

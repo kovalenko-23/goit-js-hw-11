@@ -1,16 +1,18 @@
-.timer {
+.wrapper {
   display: inline-flex;
-  margin: 50px;
-  // flex-direction: column;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 50px;
+}
 
-  font-weight: 500;
-  font-size: 14px;
+.timer {
+  margin-top: 20px;
+  display: inline-flex;
   background-color: yellow;
 }
 
 .field {
-  padding: 10px;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   text-align: center;
 }
@@ -21,6 +23,7 @@
 
 .value {
   font-size: 25px;
+  font-weight: bold;
 }
 
 .label {
@@ -29,5 +32,13 @@
   font-size: 25px;
 }
 
-.control-buttons {
+button {
+  font-weight: bold;
+  padding: 3px;
+  background-color: yellowgreen;
+}
+
+button:hover {
+  font-weight: bold;
+  background-color: tomato;
 }
